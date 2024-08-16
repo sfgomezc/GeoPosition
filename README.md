@@ -1,16 +1,11 @@
-# DeviceInfoAndroid
-App que permite visualiza información del dispositivo:
+# GeoPosition
 
-- Información del dispositivo con Xamarin.Essentials.
-- Identificación únical del dispositivo.
-- Dirección MAC e IP del dispositivo.
+Get the location of the device with the last known location and the current location. It also allows you to open the map with the current location in the browser.
 
 
-<img src="https://github.com/sfgomezc/DeviceInfoAndroid/blob/master/Capturas/DeviceInfo1.png" width="300" height="500">
+<img src="https://github.com/sfgomezc/GeoPosition/blob/master/Capturas/GeoPosition1.png" width="300" height="500">
 
-<img src="https://github.com/sfgomezc/DeviceInfoAndroid/blob/master/Capturas/DeviceInfo2.png" width="300" height="500">
+<img src="https://github.com/sfgomezc/GeoPosition/blob/master/Capturas/GeoPosition2.png" width="300" height="500">
 
-<img src="https://github.com/sfgomezc/DeviceInfoAndroid/blob/master/Capturas/DeviceInfo3.png" width="300" height="500">
-
-<img src="https://github.com/sfgomezc/DeviceInfoAndroid/blob/master/Capturas/DeviceInfo4.png" width="300" height="500">
+<img src="https://github.com/sfgomezc/GeoPosition/blob/master/Capturas/GeoPosition3.png" width="300" height="500">
 
