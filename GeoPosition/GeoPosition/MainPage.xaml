@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GeoPosition.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3"
+               Padding="24"
+               CornerRadius="0">
+            <Label Text="GEOLOCATION"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"
+                   FontSize="36"/>
+        </Frame>
+        <Label Text="Getting Geolocation WhenInUse and Always Using Xamarin.Essentials"
+               FontSize="16"
+               Padding="30,0,30,0"/>
+        <Image x:Name="imgBanner"
+               Margin="0,50,0,0"
+               Source="banner.png" />
+        <Label Text="Geolocation"
+               Margin="0,0,0,10"
+               FontAttributes="Bold"
+               FontSize="Large"
+               TextColor="#CA6F1E"
+               HorizontalTextAlignment="Center" />
+        <Button x:Name="btnLocation"
+                Text="Get Location"
+                HorizontalOptions="Center"
+                Clicked="btnLocation_Clicked"/>
+        <Button x:Name="btnMap"
+                Text="Open Map"
+                HorizontalOptions="Center"
+                Clicked="btnMap_Clicked"/>
+        <Label Text="Last known location"
+               FontSize="16"
+               Padding="30,20,30,0"/>
+        <Label x:Name="lblLatitudeL"
+               Padding="50,0,30,0" />
+        <Label x:Name="lblLongitudeL"
+               Padding="50,0,30,0" />
+        <Label Text="Current location:"
+               FontSize="16"
+               Padding="30,20,30,0" />
+        <Label x:Name="lblLatitudeC"
+               Padding="50,0,30,0" />
+        <Label x:Name="lblLongitudeC"
+               Padding="50,0,30,0" />
+        <Label x:Name="lblMsg1"
+               Padding="30,20,30,0" />
+        <Label x:Name="lblMsg2"
+               Padding="30,20,30,0" />
+    </StackLayout>
+
+</ContentPage>

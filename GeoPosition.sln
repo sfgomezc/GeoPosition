@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoPosition.Android", "GeoPosition\GeoPosition.Android\GeoPosition.Android.csproj", "{89A5A5FD-82E0-46B2-B054-88E4ABAFA70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoPosition", "GeoPosition\GeoPosition\GeoPosition.csproj", "{4E3FAB97-1DB2-42DD-A8AD-86E10369E71D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A5A5FD-82E0-46B2-B054-88E4ABAFA70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A5A5FD-82E0-46B2-B054-88E4ABAFA70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A5A5FD-82E0-46B2-B054-88E4ABAFA70A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{89A5A5FD-82E0-46B2-B054-88E4ABAFA70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A5A5FD-82E0-46B2-B054-88E4ABAFA70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A5A5FD-82E0-46B2-B054-88E4ABAFA70A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4E3FAB97-1DB2-42DD-A8AD-86E10369E71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3FAB97-1DB2-42DD-A8AD-86E10369E71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3FAB97-1DB2-42DD-A8AD-86E10369E71D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4E3FAB97-1DB2-42DD-A8AD-86E10369E71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3FAB97-1DB2-42DD-A8AD-86E10369E71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3FAB97-1DB2-42DD-A8AD-86E10369E71D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFD33D9F-90B8-4C0C-8DD5-459D424CE85D}
+	EndGlobalSection
+EndGlobal
